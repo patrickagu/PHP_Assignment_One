@@ -1,0 +1,158 @@
+:root {
+  --primary: #4361ee;
+  --secondary: #3f37c9;
+  --accent: #4cc9f0;
+  --light: #f8f9fa;
+  --dark: #212529;
+  --success: #4bb543;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark);
+  line-height: 1.3;
+  margin-bottom: 0.8em;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.5em;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+p, a, li, figcaption, th, td, label, input {
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark);
+}
+
+.navbar-brand img {
+  height: 80px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.05);
+}
+
+.masthead {
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://tivazo.com/wp-content/uploads/2024/05/Happy-Employees-img.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.masthead div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.masthead div h1 {
+  font-size: 4.5em;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+}
+
+.masthead div p {
+  color: white;
+  font-size: 1.5em;
+  max-width: 800px;
+}
+
+.form-row {
+  padding: 5%;
+  background-color: var(--light);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin: 50px 0;
+}
+
+.form-row h2 {
+  color: var(--primary);
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin: 25px 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: var(--secondary);
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.form-group input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.3);
+  outline: none;
+}
+
+button, input[type="submit"] {
+  background-color: var(--primary);
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: var(--secondary);
+  transform: translateY(-2px);
+}
+
+.submit-message {
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.success-message {
+  background-color: rgba(75, 181, 67, 0.2);
+  color: var(--success);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.8em;
+  }
+
+  .masthead div h1 {
+    font-size: 3em;
+  }
+
+  .form-row {
+    padding: 8% 5%;
+  }
+}
