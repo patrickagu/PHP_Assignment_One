@@ -9,12 +9,14 @@
 </head>
 <body>
 	<header>
-    <nav class="navbar">
-      <div class="nav-container">
-        <a class="navbar-brand" href="index.php"><img src="./img/company_logo.png" alt="header logo"></a>
-          <ul class="nav-menu">
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="view.php">Content</a></li>
+    <nav class="navigation-bar">
+      <div class="navigation-container">
+          <a class="navbar-logo" href="index.php">
+              <img src="./img/company_logo.png" alt="header logo" width="75" height="50">
+          </a>
+          <ul class="navigation-menu">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Content</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
           </ul>
         </div>
       </div>
