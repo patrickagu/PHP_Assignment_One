@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Content PHP | Read</title>
+	<title>Data Content</title>
 	<meta name="description" content="Street Style Fashion App">
         <link rel="stylesheet" href="./css/style.css">	
 </head>
