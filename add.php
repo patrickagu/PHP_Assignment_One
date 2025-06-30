@@ -23,13 +23,6 @@ if(isset($_POST["submit"])) {
     $checkAddress = $valid->validAddress($_POST["address"]);
     $confirmGender = $valid->actualGender($_POST["gender"]);
 
-    // Initialize checkbox values
-    $chk = "";
-    if (!empty($_POST["check_list"])) {
-        // Combine all selected checkboxes into a single string separated by '|'
-        $chk = implode("|", $_POST["check_list"]);
-    }
-
     // Validation messages (assume these variables are set earlier in the script)
     if ($msg !== "null") {
         echo "<p>$msg</p>";
